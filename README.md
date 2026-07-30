@@ -64,6 +64,9 @@ Script
 
 ## Author
 
-**John Michael Queddeng**
+John Micahel Queddeng
 
-MIT-1A
+Masters in Information Technology
+
+Mariano Marcos State University
+
