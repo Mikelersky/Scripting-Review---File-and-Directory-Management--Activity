@@ -91,3 +91,7 @@ cat OS/P4/ReadMe1.txt
 ## Author
 
 John Michael Queddeng
+
+Master of Information Technology (MIT) Student
+
+Mariano Marcos State University
