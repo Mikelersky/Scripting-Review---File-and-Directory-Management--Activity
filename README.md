@@ -10,7 +10,7 @@ The script demonstrates the use of basic Bash commands such as:
 - chmod
 - find
 - ls
-- cat
+
 
 ## Directory Structure
 
