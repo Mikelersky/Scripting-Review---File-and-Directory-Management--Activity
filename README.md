@@ -1,65 +1,38 @@
-# Bash Directory Structure Generator
+# Scripting Review - File and Directory Management Activity
 
 ## Overview
-This project contains a Bash script that automatically generates a predefined directory and file structure.
 
-The script demonstrates the use of basic Bash commands such as:
+This repository contains my Bash scripting activity for creating and managing directories and files automatically using a shell script.
 
-- mkdir
-- touch
-- chmod
-- find
-- ls
+The activity demonstrates basic Linux file and directory management commands and the use of Bash scripting to automate repetitive tasks.
 
+## Objectives
 
-## Directory Structure
+- Create directories using `mkdir`
+- Create files using `touch`
+- Set execute permissions using `chmod`
+- Execute a Bash script
+- Verify the generated directory structure using `find`
+- Verify created files using `ls` 
 
-```
-.
-├── OS
-│   ├── P1
-│   ├── P4
-│   │   ├── ReadMe1.txt
-│   │   └── ReadMe2.txt
-│   └── Network
-│       ├── P2
-│       │   └── ReadMe1.txt
-│       └── P3
-│           └── ReadMe2.txt
-└── Script
-    ├── P1
-    │   └── ReadMe1.txt
-    └── P3
-```
-
-## Requirements
+## Technologies Used
 
 - Bash
-- Linux, macOS, or MSYS2 (Windows)
+- MSYS2 (UCRT64)
+- VirtualBox
+- Windows 11
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `script101.sh` | Bash script that creates the required directory structure |
+| `Activity2_Queddeng.pdf` | Documentation of the activity with screenshots and outputs |
 
 ## How to Run
 
-1. Clone the repository.
-
-```bash
-git clone https://github.com/yourusername/bash-directory-structure-generator.git
-```
-
-2. Navigate to the project.
-
-```bash
-cd bash-directory-structure-generator
-```
-
-3. Give execute permission.
-
 ```bash
 chmod +x script101.sh
-```
-
-4. Run the script.
-
-```bash
 ./script101.sh
 ```
 
@@ -69,29 +42,28 @@ chmod +x script101.sh
 Directory structure created successfully!
 ```
 
-## Verify the Result
+## Directory Structure
 
-```bash
-find .
 ```
+OS
+├── P1
+├── P4
+│   ├── ReadMe1.txt
+│   └── ReadMe2.txt
+└── Network
+    ├── P2
+    │   └── ReadMe1.txt
+    └── P3
+        └── ReadMe2.txt
 
-```bash
-ls OS/P4
+Script
+├── P1
+│   └── ReadMe1.txt
+└── P3
 ```
-
-```bash
-cat OS/P4/ReadMe1.txt
-```
-
-## Files
-
-- `script101.sh` - Bash script that generates the directory structure.
-- `README.md` - Project documentation.
 
 ## Author
 
-John Michael Queddeng
+**John Michael Queddeng**
 
-Master of Information Technology (MIT) Student
-
-Mariano Marcos State University
+MIT-1A
